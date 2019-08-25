@@ -1,29 +1,113 @@
 <template>
-    <div class="v-header">
-        <div class="inner">
+  <div @scroll="handleScroll()" ref="v-header" class="v-header">
+    <div class="inner clearfix">
+      <div class="logo">
+        <img src="../../assets/banner.png" alt srcset>
+      </div>
+      <div class="headerlist">
+        <ul>
+          <li v-for="item in navlist" :key="item.id">{{ item.name }}</li>
+        </ul>
+      </div>
 
-        </div>
+      <div class="loginbar">
+        <div class="btn">登录/注册</div>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="search">
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        name:"v-header"
+export default {
+  name: "v-header",
+  data() {
+    return {
+      navlist: [
+        { id: 1, name: "首页" },
+        { id: 2, name: "首页" },
+        { id: 3, name: "首页" },
+        { id: 4, name: "首页" },
+        { id: 5, name: "首页" },
+        { id: 6, name: "首页" },
+        { id: 7, name: "首页" }
+      ]
+    };
+  },
+  methods: {
+    handleScroll() {
+      var e = document.body.scrollTop || document.documentElement.scrollTop;
+      window.console.log(e)
+      if (this.$refs["v-header"] != undefined) {
+       
+          this.$refs["v-header"].style.top = 100 + "px";
+        
+
+      }
     }
+  },
+  mounted(){
+      document.onscroll= this.handleScroll()
+  }
+};
 </script>
 
 <style scoped>
-.v-header{
-    width: 100%;
-    height: 80px;
-    background: #333;
+.v-header {
+  width: 100%;
+  height: 1400px;
+  border-bottom: 1px solid #333;
+  /* background: #333; */
 }
-.inner{
-    position: fixed;
-    left: 0;
-    top:0;
-    width: 100%;
-    height:80px;
-    background: rgba(50, 100, 150, .7)
+.inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  /* background: rgba(50, 100, 150, .7) */
+}
+.logo {
+  float: left;
+  height: 40px;
+  width: 140px;
+  margin-left: 40px;
+}
+.logo img {
+  width: 140px;
+  height: 24px;
+  margin-top: 8px;
+}
+.headerlist {
+  margin-left: 30px;
+  float: left;
+}
+.headerlist li {
+  float: left;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.search {
+  float: right;
+  height: 40px;
+}
+.search input {
+  /* line-height: 40px; */
+  outline: none;
+  border-radius: 10px;
+  height: 24px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  padding: 3px 12px;
+  border: 1px solid rgb(100, 95, 95);
+  margin-right: 30px;
+}
+.loginbar {
+  height: 40px;
+  float: right;
+  line-height: 40px;
+  margin-right: 30px;
 }
 </style>
