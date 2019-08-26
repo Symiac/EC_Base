@@ -4,7 +4,7 @@ import App from './App.vue'
 
 import './assets/global.css'
 import './assets/reset.css'
-
+import './assets/css/font-awesome.min.css'
 Vue.config.productionTip = false
 
 new Vue({

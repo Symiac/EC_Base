@@ -1,12 +1,12 @@
 <template>
-    <div class="activities">
+    <div class="activities clearfix">
         <div class="a-header">
             <div class="a-title">
                 重要活动
             </div>
         </div>
         <div class="a-items">
-            <ul>
+            <ul class="clearfix">
                 <li :class="liwidth" v-for="item in itemList" :key="item.id">
                    <div class="a-item">
                         <div class="itemimg">
@@ -57,7 +57,7 @@
 <style  scoped>
 .activities{
  margin-top: 20px;
- height: 300px;
+ /* height: 300px; */
  /* background: #333; */
 }
 .a-header{

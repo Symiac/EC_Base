@@ -3,7 +3,7 @@
     <v-header></v-header>
     <v-swiper></v-swiper>
     <v-activities></v-activities>
-   
+    <v-outlink></v-outlink>
   </div>
 </template>
 
@@ -11,14 +11,14 @@
 import swiper from './components/swiper/swiper'
 import header from './components/header/header'
 import activities from './components/activities/activities'
-
+import outlink from './components/outlink/outlink'
 export default {
   name: 'app',
   components: {
     "v-header":header,
     "v-swiper":swiper,
     'v-activities':activities,
-
+    'v-outlink':outlink
   }
 }
 </script>
