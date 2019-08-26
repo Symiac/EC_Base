@@ -8,8 +8,7 @@
 </template>
 
 <script>
-import "https://unpkg.com/element-ui/lib/index.js"
-import "https://unpkg.com/element-ui/lib/theme-chalk/index.css"
+
     export default {
         name:"v-swiper",
         components:{
