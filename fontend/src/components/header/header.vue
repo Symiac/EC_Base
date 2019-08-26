@@ -57,7 +57,7 @@ export default {
 <style scoped>
 .v-header {
   width: 100%;
-  height: 1400px;
+  height: 50px;
   border-bottom: 1px solid #333;
   /* background: #333; */
 }
