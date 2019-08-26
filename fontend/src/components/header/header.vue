@@ -61,6 +61,7 @@ export default {
   width: 100%;
   height: 50px;
   border-bottom: 1px solid #333;
+  z-index: 122222222222222
   /* background: #333; */
 }
 .inner {
