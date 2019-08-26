@@ -1,6 +1,6 @@
 <template>
-  <div @scroll="handleScroll()" ref="v-header" class="v-header">
-    <div class="inner clearfix">
+  <div   class="v-header">
+    <div ref="v-header" class="inner clearfix">
       <div class="logo">
        <img src="../../assets/banner.jpg" alt srcset>  
       </div>
@@ -39,17 +39,19 @@ export default {
   methods: {
     handleScroll() {
       var e = document.body.scrollTop || document.documentElement.scrollTop;
-      window.console.log(e)
+      window.console.log("e",e)
       if (this.$refs["v-header"] != undefined) {
-       
-          this.$refs["v-header"].style.top = 100 + "px";
-        
-
+      window.console.log("f",e)
+          if(e>40){
+          this.$refs["v-header"].style.top = e + "px";
+          }else{
+            this.$refs["v-header"].style.top = 0 + "px";
+          }
       }
     }
   },
   mounted(){
-      document.onscroll= this.handleScroll()
+      document.onscroll= this.handleScroll
   }
 };
 </script>
