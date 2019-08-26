@@ -3,6 +3,7 @@
     <v-header></v-header>
     <v-swiper></v-swiper>
     <v-activities></v-activities>
+   
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import swiper from './components/swiper/swiper'
 import header from './components/header/header'
 import activities from './components/activities/activities'
+
 export default {
   name: 'app',
   components: {
     "v-header":header,
     "v-swiper":swiper,
-    'v-activities':activities
+    'v-activities':activities,
+
   }
 }
 </script>

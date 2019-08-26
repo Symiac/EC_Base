@@ -47,9 +47,9 @@
          data() {
       return {
         swiperOption: {
-          pagination: '.swiper-pagination1',
+       //   pagination: '.swiper-pagination1',
           slidesPerView: 1,
-          spaceBetween: 30,
+     //     spaceBetween: 30,
           centeredSlides: false,
           spaceBetween: 0,
           onSlideChangeEnd: swiper => {
