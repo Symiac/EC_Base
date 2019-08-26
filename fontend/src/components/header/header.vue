@@ -2,7 +2,7 @@
   <div @scroll="handleScroll()" ref="v-header" class="v-header">
     <div class="inner clearfix">
       <div class="logo">
-        <img src="../../assets/banner.png" alt srcset>
+       <img src="../../assets/banner.png" alt srcset>  
       </div>
       <div class="headerlist">
         <ul>
