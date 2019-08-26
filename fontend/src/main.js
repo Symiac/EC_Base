@@ -12,6 +12,11 @@ new Vue({
 }).$mount('#app')
 
 
+//轮播图组件
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
+/*
 
 //添加Element组件
 import ElementUI from 'element-ui';
@@ -180,3 +185,4 @@ Vue.prototype.$confirm = MessageBox.confirm;
 Vue.prototype.$prompt = MessageBox.prompt;
 Vue.prototype.$notify = Notification;
 Vue.prototype.$message = Message;
+*/
