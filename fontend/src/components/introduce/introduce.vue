@@ -53,7 +53,7 @@ export default {
 <style scoped>
 .introduce{
     width: 100%;
-    height: 550px;
+    height: 500px;
     clear: both;
    /* text-align: center;*/
     background-color: #A6E3E9;
@@ -82,7 +82,7 @@ export default {
     vertical-align: middle;
 }
 .c-left{
-    width: 35%;
+    width: 25%;
    /* height: 200px;     /* 800px*/
   /*  line-height: 220px; */
     /*background-color: #e0e6c1;*/
@@ -91,10 +91,10 @@ export default {
 img{
     margin-top: 50px;
     width: 100%;
-    height: 300px;
+    height: 280px;
 }
 .c-right{
-    margin-left: 40%;
+    margin-left: 30%;
   /*  background-color: rgb(158, 169, 170)*/
 }
 
