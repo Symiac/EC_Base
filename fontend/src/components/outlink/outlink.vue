@@ -57,10 +57,7 @@
             </ul>
             
         </div>
-        <div @mouseenter="enter()" class="testAB">
-                <div :class="font ? 'A':'B'"></div>
-                <div :class="font ? 'B':'A'"></div>
-            </div>
+       
     </div>
 </template>
 
@@ -101,6 +98,7 @@ display: block;
     width: 25%;
     height:auto;
     float: left;
+    cursor: pointer;
 }
 .link{
     width:240px;
@@ -119,7 +117,33 @@ display: block;
     
 }
 .link:hover{
-    transform: translateX(-100%)
+    animation: linkshakesmall .5s  1;
+}
+@keyframes linkshake {
+    0%{transform: translateX(20px)}
+    10%{transform: translateX(-20px)}
+    20%{transform: translateX(16px)}
+    30%{transform: translateX(-16px)}
+    40%{transform: translateX(12px)rotateZ(5deg)}
+    50%{transform: translateX(-12px)rotateZ(-5deg)}
+    60%{transform: translateX(8px)}
+    70%{transform: translateX(-8px)}
+    80%{transform: translateX(4px)}
+    90%{transform: translateX(-4px)}
+    100%{transform: translateX(2px)}
+}
+@keyframes linkshakesmall {
+    0%{transform: translateX(15px)}
+    10%{transform: translateX(-15px)}
+    20%{transform: translateX(12px)}
+    30%{transform: translateX(-12px)}
+    40%{transform: translateX(9px)rotateZ(5deg)}
+    50%{transform: translateX(-9px)rotateZ(-5deg)}
+    60%{transform: translateX(6px)}
+    70%{transform: translateX(-6px)}
+    80%{transform: translateX(3px)}
+    90%{transform: translateX(-3px)}
+    100%{transform: translateX(1px)}
 }
 .desc p{
     width:80%;

@@ -61,11 +61,12 @@ export default {
   width: 100%;
   height: 50px;
   border-bottom: 1px solid #333;
-  z-index: 122222222222222
-  /* background: #333; */
+  
 }
 .inner {
   position: absolute;
+  background: #fafafa;
+  z-index: 122222222222222;
   left: 0;
   top: 0;
   width: 100%;
@@ -106,6 +107,12 @@ export default {
   padding: 3px 12px;
   border: 1px solid rgb(100, 95, 95);
   margin-right: 30px;
+  width: 100px;
+  transition: .5s
+}
+
+.search input:focus{
+  width: 300px;
 }
 .loginbar {
   height: 40px;
