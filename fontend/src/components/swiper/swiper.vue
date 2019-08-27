@@ -15,7 +15,9 @@
      <div class="card">
         <swiper :options="swiperOption" class="swiper-container swiper-pagination1"  ref="mySwiper">
         <!-- 添加的图片 -->
-        <swiper-slide><img class="banner-img" src="@/assets/c2.png" /> </swiper-slide>
+        <swiper-slide>
+         
+          <img class="banner-img" src="@/assets/c2.png" /> </swiper-slide>
         <swiper-slide><img class="banner-img" src="@/assets/c3.jpeg"/> </swiper-slide>
         <swiper-slide><img class="banner-img" src="@/assets/c4.jpg"/> </swiper-slide>
         <swiper-slide><img class="banner-img" src="@/assets/xigua.jpg"/> </swiper-slide>
@@ -100,13 +102,14 @@
  
     clear: both;
 	width: 100%;
-	height: 760px;
+	height: 750px;
 
 }
 .banner-img{
     width: 100%;  
-    height: 760px; 
+    height: 750px; 
 }
+
 
 /*
 .card img{

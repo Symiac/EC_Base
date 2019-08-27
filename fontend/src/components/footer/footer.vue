@@ -28,6 +28,6 @@ export default {
     position:relative;
     margin-top: 200px;
     display:block;
-    background-color:#71C9CE;
+    background-color:#5a92af;
 }
 </style>
