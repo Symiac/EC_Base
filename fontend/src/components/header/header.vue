@@ -59,13 +59,14 @@ export default {
 <style scoped>
 .v-header {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border-bottom: 1px solid #333;
   
 }
 .inner {
   position: absolute;
-  background: #fafafa;
+  background:#A6E3E9;
+  
   z-index: 122222222222222;
   left: 0;
   top: 0;
