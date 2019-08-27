@@ -27,7 +27,7 @@
         
      </div> 
        
-        
+      <introduce></introduce> 
 
     </div>
 </template>
@@ -36,13 +36,14 @@
    require('swiper/dist/css/swiper.css');
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
   import 'swiper/dist/css/swiper.css'
+  import introduce from '../introduce/introduce'
     export default {
         name:"v-swiper",
 
         components:{
           swiper,
-      swiperSlide
-
+      swiperSlide,
+         introduce
         },
          data() {
       return {
@@ -104,7 +105,7 @@
 }
 .banner-img{
     width: 100%;  
-    height: 740px; 
+    height: 760px; 
 }
 
 /*
