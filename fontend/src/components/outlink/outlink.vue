@@ -107,6 +107,8 @@ display: block;
     margin: 0% auto;
     transition: 2s;
     /* transition-delay: 2s; */
+     position: relative;
+
 }
 .link .icon{
     width:100%;
@@ -114,7 +116,32 @@ display: block;
     color:#e63;
     font-size: 50px;
     line-height: 80px;
-    
+}
+.link:hover:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%,0);
+    width:140px;
+    height: 40px;
+    border-radius: 20px;
+    animation:shackface .8s ;
+    /* border-left: 2px solid #333;
+    border-right: 2px solid #333; */
+}
+.link:hover:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translate(-50%,0);
+    width:180px;
+    height: 50px;
+    border-radius: 25px;
+    animation:shackface .8s ;
+    /* border-left: 2px solid #333;
+    border-right: 2px solid #333; */
 }
 .link:hover{
     animation: linkshakesmall .5s  1;
@@ -144,6 +171,11 @@ display: block;
     80%{transform: translateX(3px)}
     90%{transform: translateX(-3px)}
     100%{transform: translateX(1px)}
+}
+@keyframes shackface {
+    0%{border-left: 2px solid #89f;
+    border-right: 2px solid #89f;}
+    100%{border: none}
 }
 .desc p{
     width:80%;
