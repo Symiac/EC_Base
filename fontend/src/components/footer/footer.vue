@@ -28,7 +28,8 @@ export default {
     position:relative;
     margin-top: 200px;
     display:block;
-    background-color:#5a92af;
-    color: #fff;
+    font-family: "宋体";
+    background-color:#7098da;
+    color: #000;
 }
 </style>

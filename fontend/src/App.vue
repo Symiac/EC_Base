@@ -38,7 +38,7 @@ export default {
 body{
   width: 100%;
   height: auto;
-  background:  linear-gradient(#5edfff,#3E64FF);
+  background:  linear-gradient(#69daf7,rgb(79, 114, 253));
   /* background: -webkit-linear-gradient(left top, #5edfff , #3E64FF);
   background: -o-linear-gradient(bottom right, #5edfff, #3E64FF);
   background: linear-gradient(to bottom right, #5edfff  , #3E64FF); 标准的语法 */

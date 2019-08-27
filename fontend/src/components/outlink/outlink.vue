@@ -87,7 +87,7 @@ display: block;
 .o-header{
     width:100%;
     height: 80px;
-    color: #cce
+    color: #000
 }
 .o-header h1{
     font-size: 20px;
@@ -108,7 +108,7 @@ display: block;
     transition: 2s;
     /* transition-delay: 2s; */
      position: relative;
-    color: #ccf
+    color: #000
 }
 .link .icon{
     width:100%;

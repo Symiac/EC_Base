@@ -66,6 +66,7 @@ export default {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     padding-top: 20px;
+   font-family: "宋体"
    
 
 }
