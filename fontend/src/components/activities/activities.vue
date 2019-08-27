@@ -89,7 +89,7 @@
     width: 180px;
     height: 240px;
     /* border: 1px solid #777; */
-    background: #5cc3d1;
+    background: #14b1fa;
     margin:12px auto;
     padding: 0;
     box-sizing: border-box;

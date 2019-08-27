@@ -43,7 +43,7 @@ export default {
     height: 550px;
     clear: both;
    /* text-align: center;*/
-    background-color: #A6E3E9;
+    /* background-color: #A6E3E9; */
 }
 
 .i-header{

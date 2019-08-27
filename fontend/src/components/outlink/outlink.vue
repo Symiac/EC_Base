@@ -87,10 +87,10 @@ display: block;
 .o-header{
     width:100%;
     height: 80px;
-
+    color: #cce
 }
 .o-header h1{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     font-family: "宋体"
 }
@@ -108,7 +108,7 @@ display: block;
     transition: 2s;
     /* transition-delay: 2s; */
      position: relative;
-
+    color: #ccf
 }
 .link .icon{
     width:100%;

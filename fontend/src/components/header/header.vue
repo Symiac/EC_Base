@@ -65,7 +65,7 @@ export default {
 }
 .inner {
   position: absolute;
-  background:#d9f9f4;
+  background:#0cffff;
   
   z-index: 122222222222222;
   left: 0;
