@@ -66,7 +66,6 @@ export default {
 .inner {
   position: absolute;
   background:#6eb6ff;
-  
   z-index: 122222222222222;
   left: 0;
   top: 0;
@@ -109,7 +108,8 @@ export default {
   border: 1px solid rgb(100, 95, 95);
   margin-right: 30px;
   width: 100px;
-  transition: .5s
+  transition: .5s;
+  background: none;
 }
 
 .search input:focus{

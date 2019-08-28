@@ -89,7 +89,8 @@
     width: 180px;
     height: 240px;
     /* border: 1px solid #777; */
-    background: #14b1fa;
+    background: #14b1fa88;
+    
     margin:12px auto;
     padding: 0;
     box-sizing: border-box;
