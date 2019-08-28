@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <canvas id="canvas" style="position:fixed;top:0px;left:0px;z-index:1;"></canvas>
+    <canvas id="canvas" style="position:fixed;top:0px;left:0px;z-index:-1;"></canvas>
     <v-header></v-header>
     <v-swiper></v-swiper>
     <v-activities></v-activities>
