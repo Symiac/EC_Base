@@ -27,12 +27,15 @@ export default {
     return {
       navlist: [
         { id: 1, name: "首页" },
-        { id: 2, name: "首页" },
-        { id: 3, name: "首页" },
-        { id: 4, name: "首页" },
-        { id: 5, name: "首页" },
-        { id: 6, name: "首页" },
-        { id: 7, name: "首页" }
+        { id: 2, name: "专业简介" },
+        { id: 3, name: "公告通知" },
+        { id: 4, name: "师资队伍" },
+        { id: 5, name: "课程体系" },
+        { id: 6, name: "电商风采" },
+        { id: 7, name: "校友风采" },
+        { id: 8, name: "培养计划" },
+        { id: 9, name: "招生就业" },
+
       ]
     };
   },

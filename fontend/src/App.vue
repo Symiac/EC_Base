@@ -4,7 +4,7 @@
     <v-header></v-header>
     <v-swiper></v-swiper>
     <v-activities></v-activities>
-    <v-outlink></v-outlink>
+    <v-outlink></v-outlink>  
     <v-footer></v-footer>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
     "v-swiper":swiper,
     'v-activities':activities,
     'v-outlink':outlink,
-    'v-footer':footer
+    'v-footer':footer,
   },
   mounted(){
     var canvas = document.getElementById('canvas'); 

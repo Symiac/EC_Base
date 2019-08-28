@@ -30,7 +30,7 @@
      </div> 
        
       <introduce></introduce> 
-
+      <show></show>
     </div>
 </template>
 
@@ -39,13 +39,15 @@
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
   import 'swiper/dist/css/swiper.css'
   import introduce from '../introduce/introduce'
+  import show from '../alumnus/alumnus'
     export default {
         name:"v-swiper",
 
         components:{
           swiper,
       swiperSlide,
-         introduce
+         introduce,
+         show
         },
          data() {
       return {
@@ -111,48 +113,6 @@
 }
 
 
-/*
-.card img{
-
-                position: absolute;
-                left: 0;
-                top: 50px;    
-                width: 100%;  
-                height: 760px; 
-				opacity: 0;
-				animation: Aimg 12s infinite;    
-			}
-			@keyframes Aimg{
-				0% {                
-					opacity: 0;
-				}
-				
-				1% {
-					opacity: 0.3;
-				}
-				2% {
-					opacity: 0.5;
-				}
-				3% {
-					opacity: 0.8;
-				}
-				4% {                 
-					opacity: 1;
-				}
-				24% {
-					opacity: 1;
-				}
-				
-				25% {           
-					opacity: 0;
-				}
-			}
-			img:nth-child(0){animation-delay: 0s;}
-			img:nth-child(1){animation-delay: 3s;}
-			img:nth-child(2){animation-delay: 6s;}
-			img:nth-child(3){animation-delay: 9s;}
-
-*/
 
 
 
