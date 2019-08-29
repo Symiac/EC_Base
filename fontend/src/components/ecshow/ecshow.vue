@@ -1,7 +1,7 @@
 
 <template>
- <div class="ecshow">
-     <div class="e-header">
+ <div class="ecshow" id="ecshow">
+     <div class="e-header" >
             <h1>电商风采</h1>
         </div>
      <div class="demo">

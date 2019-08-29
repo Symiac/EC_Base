@@ -1,5 +1,5 @@
 <template>
- <div class="show">
+ <div class="show" id="alumnus">
     <div class="s-header">
             <h1>优秀校友</h1>
     </div>

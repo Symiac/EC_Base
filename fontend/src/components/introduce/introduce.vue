@@ -1,5 +1,5 @@
 <template>
- <div class="introduce">
+ <div class="introduce" id="introduce">
      <div class="i-header">
             <h1>电子商务专业简介</h1>
         </div>

@@ -1,5 +1,5 @@
 <template>
- <div class="training">
+ <div class="training" id="training">
      <div class="t-header">
             <h1>电子商务专业培养计划</h1>
         </div>

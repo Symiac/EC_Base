@@ -1,5 +1,5 @@
 <template>
-    <div class="activities clearfix">
+    <div class="activities clearfix" id="activities">
         <div class="a-header">
             <div class="a-title">
                 重要活动

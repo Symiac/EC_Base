@@ -6,7 +6,9 @@
       </div>
       <div class="headerlist">
         <ul>
-          <li v-for="item in navlist" :key="item.id">{{ item.name }}</li>
+      
+          <li v-for="item in navlist" :key="item.id">  <a :href="'#'+item.id">{{item.name }}</a> </li>
+        
         </ul>
       </div>
 
@@ -21,20 +23,21 @@
 </template>
 
 <script>
+
 export default {
   name: "v-header",
   data() {
     return {
       navlist: [
-        { id: 1, name: "首页" },
-        { id: 2, name: "专业简介" },
-        { id: 3, name: "公告通知" },
-        { id: 4, name: "师资队伍" },
-        { id: 5, name: "课程体系" },
-        { id: 6, name: "电商风采" },
-        { id: 7, name: "校友风采" },
-        { id: 8, name: "培养计划" },
-        { id: 9, name: "招生就业" },
+        { id: '', name: "首页" },
+        { id: "introduce", name: "专业简介" },
+        { id: '', name: "师资队伍" },
+        { id: 'activities', name: "公告通知" },
+        { id: "ecshow", name: "电商风采" },
+        { id: "alumnus", name: "校友风采" },
+        { id: '', name: "课程体系" },
+        { id: "training", name: "培养计划" },
+        { id: '', name: "招生就业" },
 
       ]
     };
