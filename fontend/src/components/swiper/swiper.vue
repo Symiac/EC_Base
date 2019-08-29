@@ -31,6 +31,7 @@
        
       <introduce></introduce> 
       <ecshow></ecshow>
+      <training></training>
       <alumnus></alumnus>
       
       
@@ -45,7 +46,9 @@
   import 'swiper/dist/css/swiper.css'
   import introduce from '../introduce/introduce'
   import alumnus from '../alumnus/alumnus'
+  import training from '../introduce/training'
   import ecshow from '../ecshow/ecshow'
+
   //import teacher from '../teacher/teacher'
     export default {
         name:"v-swiper",
@@ -55,6 +58,7 @@
       swiperSlide,
          introduce,
          alumnus,
+         training,
          ecshow
         
         },

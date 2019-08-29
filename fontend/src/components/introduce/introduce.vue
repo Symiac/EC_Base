@@ -1,6 +1,8 @@
 <template>
  <div class="introduce">
-     <div class="i-header">电子商务专业简介</div>
+     <div class="i-header">
+            <h1>电子商务专业简介</h1>
+        </div>
      <div class="i-content">
          <div class="c-left">
                 <img src='@/assets/g7.jpg'>
@@ -14,10 +16,7 @@
               <strong>专业特色：</strong>
               {{text2}}</div>
            <br>
-       <!--  <div class="text">
-              <strong>主要课程：</strong>
-              {{text3}}</div>
-              -->
+   
          <div class="more"> 
          <div class="icon">
                     <a href="#">      <i class="fa fa-chevron-circle-down" aria-hidden="true">更多</i></a>
@@ -25,13 +24,7 @@
           </div>
          </div>
      </div>
-     <!--
-     <div class="more"> 
-         <div class="icon">
-                    <a href="#">      <i class="fa fa-chevron-circle-down" aria-hidden="true">更多</i></a>
-                        </div>
-          </div>
-          -->
+   
  </div>
 </template>
 
@@ -55,20 +48,23 @@ export default {
     width: 100%;
     height: 500px;
     clear: both;
+  
+    
    /* text-align: center;*/
     /* background-color: #A6E3E9; */
 }
 
 .i-header{
-    height: 60px;
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    color: #000;
+    margin-top: 20px;
+}
+.i-header h1{
     font-size: 20px;
-    line-height: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    padding-top: 20px;
-   font-family: "宋体"
-   
-
+    font-weight: 700;
+    font-family: "宋体"
 }
 .i-content{
     /* 此宽高属性可根据自己的需求更改 */
@@ -93,6 +89,11 @@ img{
     margin-top: 50px;
     width: 100%;
     height: 280px;
+    
+}
+ img:hover {
+  opacity: 0.8;
+  transform: scale(1.1); 
 }
 .c-right{
     margin-left: 30%;
