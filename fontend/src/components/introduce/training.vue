@@ -96,11 +96,15 @@ export default {
     margin-top: 50px;
     width: 100%;
     height: 280px;
+    transition: all 0.5s ease;
 }
 .c-right img:hover {
-  opacity: 0.8;
-  transform: scale(1.1); 
+  opacity: 0.6;
+  transform: scale(1.2); 
+  transition: all 0.5s ease;
 }
+
+
 .text{
     /* 若该元素为行内或块级元素则必须设置以下属性 */
     display: inline-block;

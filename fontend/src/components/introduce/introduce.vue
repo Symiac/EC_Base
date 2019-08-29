@@ -89,11 +89,12 @@ img{
     margin-top: 50px;
     width: 100%;
     height: 280px;
-    
+    transition: all 0.5s ease;
 }
  img:hover {
-  opacity: 0.8;
+  opacity: 0.5;
   transform: scale(1.1); 
+  transition: all 0.5s ease;
 }
 .c-right{
     margin-left: 30%;
