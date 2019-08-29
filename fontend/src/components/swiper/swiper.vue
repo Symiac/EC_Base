@@ -30,16 +30,23 @@
      </div> 
        
       <introduce></introduce> 
-      <show></show>
+      <ecshow></ecshow>
+      <alumnus></alumnus>
+      
+      
     </div>
 </template>
 
 <script>
+
+
    require('swiper/dist/css/swiper.css');
   import { swiper, swiperSlide } from 'vue-awesome-swiper'
   import 'swiper/dist/css/swiper.css'
   import introduce from '../introduce/introduce'
-  import show from '../alumnus/alumnus'
+  import alumnus from '../alumnus/alumnus'
+  import ecshow from '../ecshow/ecshow'
+  //import teacher from '../teacher/teacher'
     export default {
         name:"v-swiper",
 
@@ -47,7 +54,9 @@
           swiper,
       swiperSlide,
          introduce,
-         show
+         alumnus,
+         ecshow
+        
         },
          data() {
       return {

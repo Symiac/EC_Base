@@ -8,7 +8,7 @@
     <div class="card-carousel">
       <div class="card-carousel--overflow-container">
         <div class="card-carousel-cards" :style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}">
-         <div class="card-carousel--card" v-for="item in items" v-bind:key="item"><img src="@/assets/36.png">
+         <div class="card-carousel--card" v-for="item in items" v-bind:key="item"><img class="imgs" src="@/assets/36.png">
             <div class="card-carousel--card--footer">
               <p>{{ item.name }}</p>
               <p>{{ item.tag }}</p>
@@ -99,7 +99,7 @@ display: block;
 .card-carousel--overflow-container {
   overflow: hidden;
 }
-img{
+.imgs{
   width: 270px;
   height: 270px;
 }
