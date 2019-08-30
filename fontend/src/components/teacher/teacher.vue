@@ -258,7 +258,8 @@ display: block;
 	overflow: hidden;
 	position: relative;
 	z-index: 1;
-	transition: all .5s;
+    transition: all .5s;
+    border-radius: 10%;
 }
 
 .box:before,
@@ -299,8 +300,8 @@ display: block;
 }
 
 .box:hover img{ 
-    transform: scale(0.9); 
-     border-radius: 10%;}
+    transform: scale(1.2); 
+    }
 .box .box-content{
 	text-align: right;
 /*	transform: translateY(-50%);*/
