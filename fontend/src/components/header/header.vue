@@ -49,9 +49,9 @@ export default {
       if (this.$refs["v-header"] != undefined) {
       window.console.log("f",e)
           if(e>40){
-          this.$refs["v-header"].style.top = e + "px";
+          this.$refs["v-header"].style.position = "fixed";
           }else{
-            this.$refs["v-header"].style.top = 0 + "px";
+            this.$refs["v-header"].style.position = "absolute";
           }
       }
     }
@@ -67,7 +67,6 @@ export default {
   width: 100%;
   height: 40px;
   border-bottom: 1px solid #333;
-  
 }
 .inner {
   position: absolute;
@@ -77,6 +76,7 @@ export default {
   top: 0;
   width: 100%;
   height: 40px;
+  transition-delay: .5s;
   /* background: rgba(50, 100, 150, .7) */
 }
 .logo {
