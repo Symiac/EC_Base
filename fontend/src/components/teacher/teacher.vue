@@ -7,7 +7,7 @@
          <div class="row">
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">赵老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -16,7 +16,7 @@
              </div>
              <div class="col1">
                  <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">张老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -25,7 +25,7 @@
              </div>
              <div class="col1">
                   <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">李老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -34,7 +34,7 @@
              </div>
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -45,7 +45,7 @@
              </div>
               <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -58,7 +58,7 @@
            <div class="row">
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">赵老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -67,7 +67,7 @@
              </div>
              <div class="col1">
                  <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">张老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -76,7 +76,7 @@
              </div>
              <div class="col1">
                   <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">李老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -85,7 +85,7 @@
              </div>
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -96,7 +96,7 @@
              </div>
               <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -109,7 +109,7 @@
          <div class="row">
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">赵老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -118,7 +118,7 @@
              </div>
              <div class="col1">
                  <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">张老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -127,7 +127,7 @@
              </div>
              <div class="col1">
                   <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">李老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -136,7 +136,7 @@
              </div>
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -147,7 +147,7 @@
              </div>
               <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -157,10 +157,10 @@
                 </div>
              </div>
          </div>
-           <div class="row">
+         <div class="row">
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/c4.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">赵老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -169,25 +169,17 @@
              </div>
              <div class="col1">
                  <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/4.png">
 					<div class="box-content">
 						<h3 class="title">张老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
 					</div>
 				</div>
              </div>
-             <div class="col1">
-                  <div class="box">
-					<img src="@/assets/c4.jpg">
-					<div class="box-content">
-						<h3 class="title">李老师</h3>
-                        <button type="button" class="btn btn-primary btn-sm">详细</button>
-					</div>
-				</div>
-             </div>
+            
              <div class="col1">
                 <div class="box">
-					<img src="@/assets/xigua.jpg">
+					<img src="@/assets/1.png">
 					<div class="box-content">
 						<h3 class="title">王老师</h3>
                         <button type="button" class="btn btn-primary btn-sm">详细</button>
@@ -196,11 +188,20 @@
 				</div>
                 </div>
              </div>
-            
+              <div class="col1">
+                <div class="box">
+					<img src="@/assets/4.png">
+					<div class="box-content">
+						<h3 class="title">王老师</h3>
+                        <button type="button" class="btn btn-primary btn-sm">详细</button>
+					</div>
+                      <div class="box">
+				</div>
+                </div>
              </div>
          </div>
      </div>
-    
+ </div> 
 </template>
 
 <script type="text/ecmascript-6">
@@ -292,11 +293,11 @@ display: block;
 }
 .box img{
     width: 250px;;
-    height: 250px;
 	height: auto;
     transition: all 0.5s ease;
     border-radius: 10%;
 }
+
 .box:hover img{ 
     transform: scale(0.9); 
      border-radius: 10%;}
@@ -319,7 +320,7 @@ display: block;
 	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-right: 25px;
+	margin-right: 5px;
 }
 .box .post{
 	font-size: 16px;
@@ -330,7 +331,7 @@ display: block;
 
 button{
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
   
 }
 
