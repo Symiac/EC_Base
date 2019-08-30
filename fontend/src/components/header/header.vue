@@ -45,9 +45,9 @@ export default {
   methods: {
     handleScroll() {
       var e = document.body.scrollTop || document.documentElement.scrollTop;
-      window.console.log("e",e)
+      // window.console.log("e",e)
       if (this.$refs["v-header"] != undefined) {
-      window.console.log("f",e)
+      // window.console.log("f",e)
           if(e>40){
           this.$refs["v-header"].style.position = "fixed";
           }else{
