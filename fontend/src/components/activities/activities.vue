@@ -1,9 +1,7 @@
 <template>
     <div class="activities clearfix" id="activities">
-        <div class="a-header">
-            <div class="a-title">
-                重要活动
-            </div>
+       <div class="a-header" >
+            <h1>公告通知</h1>
         </div>
         <div class="a-items">
             <ul class="clearfix">
@@ -56,16 +54,21 @@
 
 <style  scoped>
 .activities{
- margin-top: 20px;
+ margin-top: 30px;
  /* height: 300px; */
  /* background: #333; */
 }
 .a-header{
-    height: 50px;
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    color: #000;
+    margin-top: 20px;
+}
+.a-header h1{
     font-size: 20px;
-    line-height: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold
+    font-weight: 700;
+    font-family: "宋体"
 }
 .a-items{
     width: 85%;

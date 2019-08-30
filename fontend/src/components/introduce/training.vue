@@ -61,7 +61,7 @@ export default {
     width:100%;
     height: 80px;
     color: #000;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .t-header h1{
     font-size: 20px;

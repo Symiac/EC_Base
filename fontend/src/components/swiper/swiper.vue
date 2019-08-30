@@ -30,10 +30,14 @@
      </div> 
        
       <introduce></introduce> 
+      <teacher></teacher>
+        <v-activities></v-activities>
+    
       <ecshow></ecshow>
-      <training></training>
       <alumnus></alumnus>
-      
+      <course></course>
+       <training></training>
+      <job></job>
       
     </div>
 </template>
@@ -48,18 +52,24 @@
   import alumnus from '../alumnus/alumnus'
   import training from '../introduce/training'
   import ecshow from '../ecshow/ecshow'
-
-  //import teacher from '../teacher/teacher'
+  import activities from '../activities/activities'
+  import course from '../course/course'
+  import job from '../job/job'
+  import teacher from '../teacher/teacher'
     export default {
         name:"v-swiper",
 
         components:{
           swiper,
       swiperSlide,
+      'v-activities':activities,
          introduce,
          alumnus,
          training,
-         ecshow
+         ecshow,
+         teacher,
+         course,
+         job
         
         },
          data() {

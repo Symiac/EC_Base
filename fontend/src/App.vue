@@ -3,7 +3,7 @@
     <canvas id="canvas" style="position:fixed;top:0px;left:0px;z-index:-1;"></canvas>
     <v-header></v-header>
     <v-swiper></v-swiper>
-    <v-activities></v-activities>
+  
     <v-outlink></v-outlink>  
     <v-footer></v-footer>
   </div>
@@ -12,7 +12,7 @@
 <script>
 import swiper from './components/swiper/swiper'
 import header from './components/header/header'
-import activities from './components/activities/activities'
+
 import outlink from './components/outlink/outlink'
 import footer from './components/footer/footer'
 export default {
@@ -20,7 +20,7 @@ export default {
   components: {
     "v-header":header,
     "v-swiper":swiper,
-    'v-activities':activities,
+    
     'v-outlink':outlink,
     'v-footer':footer,
   },

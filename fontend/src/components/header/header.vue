@@ -31,13 +31,13 @@ export default {
       navlist: [
         { id: '', name: "首页" },
         { id: "introduce", name: "专业简介" },
-        { id: '', name: "师资队伍" },
+        { id: 'teacher', name: "师资队伍" },
         { id: 'activities', name: "公告通知" },
         { id: "ecshow", name: "电商风采" },
         { id: "alumnus", name: "校友风采" },
-        { id: '', name: "课程体系" },
+        { id: 'course', name: "课程体系" },
         { id: "training", name: "培养计划" },
-        { id: '', name: "招生就业" },
+        { id: 'job', name: "招生就业" },
 
       ]
     };
@@ -71,7 +71,7 @@ export default {
 }
 .inner {
   position: absolute;
-  background:#333;
+  background:#fff;
   z-index: 122222222222222;
   left: 0;
   top: 0;
