@@ -7,7 +7,7 @@
       <div class="headerlist">
         <ul>
       
-          <li v-for="item in navlist" :key="item.id">  <a :href="'#'+item.id">{{item.name }}</a> </li>
+          <li v-for="item in navlist" :key="item.id">  <a class="headerlink" :href="'#'+item.id">{{item.name }}</a> </li>
         
         </ul>
       </div>
@@ -71,7 +71,7 @@ export default {
 }
 .inner {
   position: absolute;
-  background:#6eb6ff;
+  background:#333;
   z-index: 122222222222222;
   left: 0;
   top: 0;
@@ -116,15 +116,30 @@ export default {
   width: 100px;
   transition: .5s;
   background: none;
+  color:#eee;
+  
 }
 
 .search input:focus{
-  width: 300px;
+  width: 200px;
+  box-shadow: 0px 0px 15px #99f
+  
 }
 .loginbar {
   height: 40px;
   float: right;
   line-height: 40px;
   margin-right: 30px;
+  color: #67f;
+  cursor: pointer;
+}
+.btn:hover{
+  color:#eee;
+  /* height: ; */
+  text-shadow:0px 0px 3x #88e
+}
+.headerlink:hover{
+ text-decoration: none;
+ text-shadow: 0px 0px 3px rgb(120, 255, 102)
 }
 </style>
