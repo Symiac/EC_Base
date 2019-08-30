@@ -16,7 +16,7 @@
     export default {
         data(){
             return {
-                name:"黄骐",
+                name:"张三",
                 desc:"业余打手",
                 paras:[
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",

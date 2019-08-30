@@ -8,7 +8,7 @@
     <div class="card-carousel">
       <div class="card-carousel--overflow-container">
         <div class="card-carousel-cards" :style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}">
-         <div class="card-carousel--card" v-for="item in items" v-bind:key="item"><img class="imgs" src="@/assets/36.png">
+         <div @click="show" class="card-carousel--card" v-for="item in items" v-bind:key="item"><img class="imgs" src="@/assets/36.png">
             <div class="card-carousel--card--footer">
               <p>{{ item.name }}</p>
               <p>{{ item.tag }}</p>
@@ -17,12 +17,20 @@
         </div>
       </div>
     </div>
+
     <div class="card-carousel--nav__right" @click="moveCarousel(1)" :disabled="atEndOfList"></div>
+    <div :class="isShow" class="personShow">
+      <div @click="closeShow" class="close">
+        <i class="fa fa-times-circle" aria-hidden="true"></i>
+      </div>
+        <v-person></v-person>
+    </div>
   </div>
  </div>
 </template>
 
 <script type="text/ecmascript-6">
+import personCard from '../personcard/personcard'
 export default {
  data() {
  return {
@@ -40,11 +48,12 @@ export default {
         {name: '钱十', tag: "后端"},
         {name: '孙艺', tag: "前端"},
         {name: '乔二', tag: "考公"},
-      ]
+      ],
+      isShow:''
   }
  },
  components: {
-
+   "v-person":personCard
  },
   computed: {
     atEndOfList() {
@@ -63,6 +72,12 @@ export default {
         this.currentOffset += this.paginationFactor;
       }
     },
+    show(){
+      this.isShow = "person-show"
+    },
+    closeShow(){
+      this.isShow = "person-nshow"
+    }
   }
 }
 </script>
@@ -209,5 +224,33 @@ display: block;
   background: white;
   box-shadow: -0px -0px 0px #004977;
 }
-
+.personShow{
+  position:fixed;
+  left:0;
+  top:0;
+  background:#4449;
+  width:100%;
+  height:100%;
+  z-index :100;
+  transform: scaleY(0)scaleX(.2);
+  transform-origin: top center;
+  transition: .8s;
+}
+.person-show{
+  transform: scaleY(1)scaleX(1);
+}
+.person-nshow{
+  transform: scaleY(0)scaleX(.2);
+}
+.close{
+  font-size: 50px;
+  margin:120px auto;
+  width:50px;
+  height:50px;
+  color:#fafaaa;
+  
+}
+.close:hover{
+  transform:scale(2)
+}
 </style>
