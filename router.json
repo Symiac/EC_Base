@@ -1,0 +1,12 @@
+[
+    {"path":"/aboutecbase","data":{"shortcut":"data_shortcut","fulltext":"fulltext"},"desc":"电商专业介绍"},
+    {"path":"/teacherList/total","data":{"status":"ok","teachers":[{
+        "name":"",
+        "t_id":"123",
+        "avatorUrl":"/path/to/avator"
+    }]},"desc":"教师列表，含有基本信息"},
+    {"path":"/teacher/desc?id=123","data":{"status":"ok",
+        "name":"",
+
+        }}
+]
