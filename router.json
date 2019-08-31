@@ -1,12 +1,93 @@
 [
-    {"path":"/aboutecbase","data":{"shortcut":"data_shortcut","fulltext":"fulltext"},"desc":"电商专业介绍"},
-    {"path":"/teacherList/total","data":{"status":"ok","teachers":[{
-        "name":"",
-        "t_id":"123",
-        "avatorUrl":"/path/to/avator"
-    }]},"desc":"教师列表，含有基本信息"},
-    {"path":"/teacher/desc?id=123","data":{"status":"ok",
-        "name":"",
-
-        }}
+    {
+        "path": "/aboutecbase",
+        "data": {
+            "shortcut": "data_shortcut",
+            "fulltext": "fulltext"
+        },
+        "desc": "电商专业介绍"
+    },
+    {
+        "path": "/teacherList/total",
+        "data": {
+            "status": "ok",
+            "teachers": [
+                {
+                    "name": "",
+                    "t_id": "123",
+                    "avatorUrl": "/path/to/avator"
+                }
+            ]
+        },
+        "desc": "教师列表，含有基本信息"
+    },
+    {
+        "path": "/teacher/desc?id=123",
+        "data": {
+            "status": "ok",
+            "name": ""
+        },
+        "desc": "教师详细信息"
+    },
+    {
+        "path":"/blackboard/list",
+        "data":{
+            "status":"ok",
+            "list":[
+                {
+                    "title":"",
+                    "short_desc":"",
+                    "b_id":""
+                }
+            ]
+        },
+        "desc":"活动信息（列表）"
+    },{
+        "path":"/blackboard/desc?id= b_id",
+        "data":{},
+        "desc":"活动信息(详细)"
+    },{
+        "path":"/ec_show",
+        "data":{},
+        "desc":"电商风采"
+    },{
+        "path":"/yxxy/list",
+        "data":{
+            "name":"",
+            "taget":[],
+            "avatorUrl":"/path/to/avator"
+        },
+        "desc":"优秀校友(列表)"
+    },{
+        "path":"/yxxy/desc",
+        "data":{
+            "status":"ok",
+            "about":{
+                "name":"",
+                "zhiye":"",
+                "info":""
+            },
+            "jingli":[
+                {
+                    "companyName":"公司名称",
+                    "startTime":"开始时间",
+                    "miaosu":"工作描述"
+                }
+            ]
+            ,
+            "contact":{
+                "phone":123,
+                "qq":113,
+                "weixin":"zhangsan",
+                "mail":"123@456.789",
+                "git":"",
+                "telphone":123
+            },
+            "project":[{
+                "name":"",
+                "pUrl":"",
+                "pImg":""
+            }]
+        }
+    }
 ]
