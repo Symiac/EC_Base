@@ -17,19 +17,16 @@
               <strong>就业前景：</strong>
               {{text3}}</div>
               <a href="#">附件下载：培养计划2019.dox</a>
-   
          <div class="more"> 
          <div class="icon">
                     <a href="#">      <i class="fa fa-chevron-circle-down" aria-hidden="true">更多</i></a>
                         </div>
           </div>
-              
          </div>
          <div class="c-right">
               <img src='@/assets/xigua.jpg'>
          </div>
      </div>
-   
  </div>
 </template>
 
@@ -43,11 +40,9 @@ export default {
  }
  },
  components: {
-
  }
 }
 </script>
-
 <style scoped >
 .training{
     width: 100%;
@@ -56,7 +51,6 @@ export default {
    /* text-align: center;*/
     /* background-color: #A6E3E9; */
 }
-
 .t-header{
     width:100%;
     height: 80px;
@@ -87,7 +81,6 @@ export default {
     /*background-color: #e0e6c1;*/
     float: left;
 }
-
 .c-right{
     margin-left: 73%;
   /*  background-color: rgb(158, 169, 170)*/
@@ -103,8 +96,6 @@ export default {
   transform: scale(1.2); 
   transition: all 0.5s ease;
 }
-
-
 .text{
     /* 若该元素为行内或块级元素则必须设置以下属性 */
     display: inline-block;
@@ -124,7 +115,6 @@ strong{
   
     padding-right: 20px;
 }
-
 a:link,a:hover,a:active,a:visited{
     text-decoration:none;
     color: #000;

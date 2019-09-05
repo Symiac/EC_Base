@@ -1,0 +1,22 @@
+你好！
+
+步骤
+
+
+//下载EC_Base.git 到testgit文件
+ git clone https://github.com/Symiac/EC_Base.git testgit
+
+ //关联远程仓库
+ git remote set-url origin https://github.com/Symiac/EC_Base.git
+
+ //
+ git pull
+
+ //在testgit下新建文件 hh.txt
+
+ //依次执行
+ git add hh.txt
+ git commit -m "添加hh"
+ git push
+
+ 结束 
