@@ -16,10 +16,15 @@
             <div class="text">
               <strong>就业前景：</strong>
               {{text3}}</div>
-              <a href="#">附件下载：培养计划2019.dox</a>
+               <collapse>
+            <div v-show="isActive">
+              <a href="./培训反馈.docx" download="">附件下载：培养计划2019.dox</a>
+            </div>
+               </collapse>
          <div class="more"> 
          <div class="icon">
-                    <a href="#">      <i class="fa fa-chevron-circle-down" aria-hidden="true">更多</i></a>
+                    <a href="javscript:void(0);"  @click="isActive = !isActive">   
+                           <i :class="isActive ? 'fa fa-chevron-circle-up' : 'fa fa-chevron-circle-down'"  aria-hidden="true">{{word}}</i></a>
                         </div>
           </div>
          </div>
@@ -34,13 +39,24 @@
 export default {
  data() {
  return {
+     
+      isActive: false,
       text1:"本专业面向电子商务发展需求，结合交通运输行业特色，主要培养具有电子商务创新思维，掌握电子商务运营模式，具有电子商务系统开发与设计技能、商业智能分析能力的高级专业人才。",
       text2:"微观经济学、管理学、运筹学、管理统计学、网络营销、网络金融与电子支付、电子商务网站设计、数据库原理、信息系统分析与设计、计算机网络及设计、电子商务安全技术、电子商务经济学、移动商务与协同商务、商业智能等。",
       text3:"本专业毕业生主要在交通运输企业、IT企业、保险业、金融机构等企事业单位从事电子商务的网络营销、商业智能、电子商务系统开发和运行维护等工作。"
  }
  },
  components: {
- }
+ },
+  computed: {
+      word:function(){
+      if(this.isActive == false){
+          return '更多'
+      }else{
+        return '收起'
+      }
+    }
+  }
 }
 </script>
 <style scoped >

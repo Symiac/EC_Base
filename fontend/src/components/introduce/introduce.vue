@@ -28,7 +28,8 @@
          <div class="more" id="more"> 
          <div class="icon">
                    
-                    <a href="javascript:void(0);" @click="isActive = !isActive">      <i class="fa fa-chevron-circle-down" aria-hidden="true">{{word}}</i></a>
+                    <a href="javascript:void(0);" @click="isActive = !isActive">   
+                           <i :class="isActive ? 'fa fa-chevron-circle-up' : 'fa fa-chevron-circle-down'"  aria-hidden="true">{{word}}</i></a>
                         </div>
           </div>
          </div>
