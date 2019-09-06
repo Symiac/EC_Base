@@ -1,9 +1,10 @@
 <template>
  <div class="allcourse">
-     <header></header>
+     
       <div class="c-header" >
             <h1>全部课程</h1>
         </div>
+        <canvas ref="courseCanvas" id="courseCanvas"></canvas>
  </div>
 </template>
 
@@ -16,6 +17,10 @@ export default {
  },
  components: {
 
+ },
+ mounted(){
+     let canvas = this.refs.courseCanvas;
+     let ctx = canvas.getContext("2d");
  }
 }
 </script>
