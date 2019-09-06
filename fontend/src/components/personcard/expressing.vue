@@ -69,6 +69,7 @@ export default {
   font-family: "Times New Roman", Times, serif;
   text-decoration-line: blink;
   user-select: none;
+  margin-bottom: 30px;
 }
 .express-body {
   width: 80%;
@@ -78,6 +79,17 @@ export default {
   width: 100%;
   padding: 0;
   position: relative;
+  transition: .5s;
+}
+.item:hover{
+    box-shadow: 0px 0px 5px #369;
+    transition: .8s;
+}
+.item:hover:before{
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgb(13, 71, 129);
 }
 .item .left {
   float: left;
@@ -92,7 +104,7 @@ export default {
   line-height: 50px;
   color: #000;
 }
-.item .left:before {
+.item:before {
   content: "";
   height: 6px;
   width: 6px;
@@ -104,6 +116,7 @@ export default {
   transform: translate(-50%, -50%);
   background: #fff;
 }
+
 .item div {
   height: 25px;
   width: 100%;
