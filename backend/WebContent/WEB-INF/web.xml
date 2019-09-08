@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>ReTeacher</servlet-name>
+  	<servlet-class>com.ecbase.service.ResTeacher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ReTeacher</servlet-name>
+  	<url-pattern>/ReTeacher</url-pattern>
+  </servlet-mapping>
 </web-app>
