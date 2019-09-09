@@ -3,7 +3,7 @@ package com.ecbase.bean;
 import java.sql.Date;
 import java.sql.Timestamp;
 
-public class Activitty {
+public class Activity {
 
 	private int id;
 	private String title;

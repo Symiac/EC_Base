@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ 	<mapper namespace="com.ecbase.dao.GetActivities">
+ 		
+ 		<select id="getAllActivities" resultType="com.ecbase.bean.Activity">
+ 			select * from tb_activity;
+ 		</select>
+
+ 	</mapper>
