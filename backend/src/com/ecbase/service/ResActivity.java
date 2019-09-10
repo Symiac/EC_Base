@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ResActivity
  */
-@WebServlet("/ResActivity")
+@WebServlet(urlPatterns= {"/ResActivity","/blackboard/desc"})
+//@WebServlet("/ResActivity")
 public class ResActivity extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

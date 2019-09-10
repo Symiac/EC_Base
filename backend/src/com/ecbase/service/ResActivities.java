@@ -23,7 +23,8 @@ import com.ecbase.service.ResStudents.StudentInfo;
 /**
  * Servlet implementation class ResActivities
  */
-@WebServlet("/ResActivities")
+@WebServlet(urlPatterns= {"/ResActivities","/blackboard/list"})
+//@WebServlet("/ResActivities")
 public class ResActivities extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

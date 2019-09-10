@@ -21,7 +21,8 @@ import com.ecbase.bean.Teacher;
 /**
  * Servlet implementation class ResTeachers
  */
-@WebServlet("/ResTeachers")
+@WebServlet(urlPatterns={"/ResTeachers","/teacherList/total"})
+//@WebServlet("/ResTeachers")
 public class ResTeachers extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

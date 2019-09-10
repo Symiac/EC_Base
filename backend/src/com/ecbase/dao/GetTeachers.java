@@ -7,7 +7,7 @@ import com.ecbase.bean.Teacher;
 public interface GetTeachers {
 
 	/**
-	  *   获取所有学生基本信息：姓名，id,头像文件路径
+	  *   获取所有教师基本信息：姓名，id,头像文件路径
 	 * @return
 	 */
 	public List<Teacher> getAllTeachers();

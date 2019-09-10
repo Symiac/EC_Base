@@ -9,4 +9,7 @@
  			select * from tb_student;
  		</select>
 
+		<select id="getStudentById" resultType="com.ecbase.bean.Student">
+ 			select * from tb_student where id = #{id};
+ 		</select>
  	</mapper>

@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ResProgram
  */
+//@WebServlet("/ResProgram")
 @WebServlet("/ResProgram")
 public class ResProgram extends HttpServlet {
 	private static final long serialVersionUID = 1L;
