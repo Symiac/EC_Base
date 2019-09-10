@@ -43,7 +43,7 @@ public class ResStudents extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("(List)Information of SchoolMates");
 		response.setCharacterEncoding("utf-8");
-//		response.setContentType("application/json;charset=utf-8");
+		response.setContentType("application/json;charset=utf-8");
 		String date = this.getStudentsList();
 		response.getWriter().write(date);
 	}

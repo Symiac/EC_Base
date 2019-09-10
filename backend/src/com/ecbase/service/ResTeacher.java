@@ -53,6 +53,7 @@ public class ResTeacher extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("(person)Information of Teachers");
 		response.setCharacterEncoding("utf-8");
+		response.setContentType("application/json;charset=utf-8");
 		String date = this.getTeacherById(request.getParameter("id"));
 		response.getWriter().write(date);
 	}

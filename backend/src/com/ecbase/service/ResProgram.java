@@ -29,6 +29,7 @@ public class ResProgram extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.setCharacterEncoding("utf-8");
+		response.setContentType("application/json;charset=utf-8");
 		String s = "培养目标：本专业主要培养具备现代管理和信息经济理念、掌握信息技术和电子服务综合技能、具有扎实的专业基础和良好的知识结构，具备一定的互联网创新创业素质，能从事网络环境下商务运营、专业管理和技术服务的复合型、应用型、创新型专业人才y。\r\n" + 
 				"\r\n" + 
 				"专业特色：本专业高度重视学生创新能力的培养，强调商务与技术的融合、理论与实践的结合，突出信息技术、网络技术、商务智能在电子商务中的地位和作用。本专业围绕电子商务核心价值链，打造“四流（信息流、商流、资金流、物流）合一”的完整课程体系，并不断跟踪电子商务发展前沿优化课程内容，通过“重基础、宽视野、多渠道”的人才培养模式，在培养学生发现问题、分析问题、解决问题能力的基础上，重点培养电子商务系统设计、电子商务平台开发、电子商务管理与运营、商务模式创新、电商大数据分析与应用等专业能力。y\r\n" + 

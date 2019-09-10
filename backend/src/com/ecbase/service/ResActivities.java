@@ -43,7 +43,7 @@ public class ResActivities extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append("(List)Information of Activities");
 		response.setCharacterEncoding("utf-8");
-//		response.setContentType("application/json;charset=utf-8");
+		response.setContentType("application/json;charset=utf-8");
 		String date = this.getActivitiesList();
 		response.getWriter().write(date);
 	}

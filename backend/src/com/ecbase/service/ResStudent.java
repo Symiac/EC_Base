@@ -42,6 +42,7 @@ public class ResStudent extends HttpServlet {
 		// TODO Auto-generated method stub
 //		response.getWriter().append(request.getParameter("id"));
 		response.setCharacterEncoding("utf-8");
+		response.setContentType("application/json;charset=utf-8");
 		String date = this.getStudentById(request.getParameter("id"));
 		response.getWriter().write(date);
 	}
